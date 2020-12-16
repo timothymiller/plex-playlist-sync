@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -it timothyjmiller/python-microservice:latest
+docker run -it timothyjmiller/plex-playlist-sync:latest

@@ -1,11 +1,10 @@
 version: "3.7"
 services:
-  python-microservice:
-    image: timothyjmiller/python-microservice:latest
-    container_name: python-microservice
+  plex-playlist-sync:
+    image: timothyjmiller/plex-playlist-sync:latest
+    container_name: plex-playlist-sync
     security_opt:
       - no-new-privileges:true
-    environment:
-      - PUID=1000
-      - PGID=1000
+    env_file:
+      .env
     restart: unless-stopped
