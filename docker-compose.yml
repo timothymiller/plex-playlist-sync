@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  python-microservice:
+    image: timothyjmiller/python-microservice:latest
+    container_name: python-microservice
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      - PUID=1000
+      - PGID=1000
+    restart: unless-stopped
