@@ -1,6 +1,6 @@
-# 📽️📺 Plex Playlist Sync 🐍
+# 🐍 Plex Playlist Sync 🔄 
 
-🔄 Automatically sync playlists from your admin Plex account with your managed accounts.
+Automatically sync playlists from your admin Plex account with your managed accounts.
 
 ## 📊 Stats
 
@@ -34,8 +34,8 @@ Create a file called `.env` in the same directory as your docker-compose.yml fil
 ```bash
 PLEX_URL=https://YOUR_PLEX_DOMAIN_HERE
 PLEX_TOKEN=YOUR_PLEX_TOKEN_HERE
-PLEX_PLAYLISTS=Playlist Names1, Playlist Names2
-PLEX_USERS=User1, Separated, By, A, Comma
+PLEX_PLAYLISTS=Playlist1, Playlist2, Playlist3
+PLEX_USERS=User1, User2, User3
 REPEAT_INTERVAL=15
 ```
 
