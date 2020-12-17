@@ -1,4 +1,4 @@
-# 🐍 Plex Playlist Sync 🔄 
+# 🐍 Plex Playlist Sync 🔄
 
 Automatically sync playlists from your admin Plex account with your managed accounts.
 
@@ -10,16 +10,33 @@ Automatically sync playlists from your admin Plex account with your managed acco
 
 ## 🏃 Runtime
 
-- Docker
 - Alpine Linux
 - Python3
-- Intel + AMD (64 bit)
+- Docker
+- Multi-Architecture (arm64, amd64, & more)
 
 ## 🔋 Bash Scripts (Docker + Docker Hub)
 
 - Build
+
+```bash
+chmod +x ./docker-build.sh
+./docker-build.sh
+```
+
 - Publish
+
+```bash
+chmod +x ./docker-publish.sh
+./docker-publish.sh
+```
+
 - Run
+
+```bash
+chmod +x ./docker-run.sh
+./docker-run.sh
+```
 
 ## 🚦 Getting Started
 
