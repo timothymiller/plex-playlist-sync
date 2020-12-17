@@ -1,6 +1,6 @@
-# 📽️📺 Plex Playlist Sync 🐍
+# 🐍 Plex Playlist Sync 🔄 
 
-🔄 Automatically sync playlists from your admin Plex account with your managed accounts.
+Automatically sync playlists from your admin Plex account with your managed accounts.
 
 ## 📊 Stats
 
